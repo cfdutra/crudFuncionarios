@@ -15,7 +15,7 @@ public class FuncionarioServices {
     private FuncionarioRepository funcionarioRepository;
 
 
-    public List<FuncionarioModel> findAAL(){
+    public List<FuncionarioModel> findAll(){
         return funcionarioRepository.findAll();
     }
 
